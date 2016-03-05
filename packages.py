@@ -36,6 +36,11 @@ def menu():
             sendConsignment()
         elif anyInput = '5':
             open = False
+            
+    def testFunction():
+        print('This is a test')
+        anyNumber = input('What is the test number?')
+        print('the number is ', anyNumber)
 
 def checkPackage():
     print('Package Checker')
